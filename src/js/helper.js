@@ -29,7 +29,7 @@ export const GetWojData = async function () {
 export const GetPowiatData = async function () {
   try {
     const request = fetch(
-      "https://services9.arcgis.com/RykcEgwHWuMsJXPj/arcgis/rest/services/powiaty_corona_widok_woj/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&resultRecordCount=314"
+      "https://services9.arcgis.com/RykcEgwHWuMsJXPj/arcgis/rest/services/powiaty_corona_widok_woj/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&resultRecordCount=400"
     );
     const data = await request.then((response) => response.json());
     return data;

@@ -126,7 +126,7 @@ class DisplayPowiatList {
               <div
                 class="text-xs font-weight-bold text-danger text-uppercase mb-1"
               >
-                Liczba zakarzeń
+                Liczba zakażeń
               </div>
               <div
                 id="zakarzenia"
