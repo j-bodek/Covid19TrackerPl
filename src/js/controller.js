@@ -1,7 +1,12 @@
 import DisplayMainCharts from "./view/displayMainCharts.js";
 import DisplayPowiatList from "./view/displayPowiatList.js";
-import { GetCountryData, GetWojData, GetPowiatData } from "./helper.js";
+import {
+  GetCountryData,
+  GetWojData,
+  GetPowiatData
+} from "./helper.js";
 import * as model from "./model.js";
+
 
 const displayMainCharts = async function () {
   try {
